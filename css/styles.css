@@ -543,7 +543,11 @@ img {
   color: var(--address-color);
 }
 
-.join-us-title {
+.join-us {
+  margin-right: 93px;
+}
+
+.footer-sup-title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -564,6 +568,47 @@ img {
 .footer-social-networks .icon {
   color: var(--primary-white-color);
 }
+
+/* =========== Subscribe ============ */
+.input-subscribe {
+  margin-right: 8px;
+  padding: 0 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  color: var(--primary-white-color);
+  background-color: transparent;
+}
+
+.input-btn {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+.input-btn > .icon {
+  margin-left: 10px;
+}
+/* =========== /Subscribe ============ */
+
 /* ============== /FOOTER =============== */
 
 /* ============== portfolio.html =============== */
